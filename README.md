@@ -1,3 +1,5 @@
+
+
 # Steering Knowledge Selection Behaviours in LLMs via SAE-Based Representation Engineering
 
 ---
@@ -21,7 +23,7 @@ bash ./scripts/install.sh
 python ./demo.py
 ```
 
-Test your cases by replacing `test_examples`.
+Test your cases by replacing the `test_examples` list in `demo.py` with your own dictionaries containing `context` and `question` keys.
 
 SpARE currently only supports short-form ODQA task, and we plan to add support for more tasks in the next version. 
 
